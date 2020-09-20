@@ -14,7 +14,7 @@ Input	to	the	program	will	be
 • Number	of	passengers	waiting	in	queue
 
 ## Algorithm
-1. Retrieve input Array dimenstion as string convert it to List<List<Integer>>
+1. Retrieve input Array dimenstion as string convert it to List (Jackson Mapper used)
 2. create array for each slots with the given row & column specs
 3. Fill the array with seat marker
    Default marker will be "M"(Middle)
